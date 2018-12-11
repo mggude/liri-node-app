@@ -119,4 +119,53 @@
     "City": "Chicago",
     "Date": "06/25/2019"
   }
+][
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "Contact Winter Music Festival",
+    "City": "Vancouver",
+    "Date": "12/28/2018"
+  },
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "Decadence AZ",
+    "City": "Chandler",
+    "Date": "12/30/2018"
+  },
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "Decadence CO",
+    "City": "Denver",
+    "Date": "12/30/2018"
+  },
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "Snowta NYE",
+    "City": "Minneapolis",
+    "Date": "12/31/2018"
+  },
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "EDC Mexico (Feb 23-24)",
+    "City": "Mexico City",
+    "Date": "02/23/2019"
+  },
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "DOG BLOOD @ BUKU [MAR 22-23]",
+    "City": "New Orleans",
+    "Date": "03/22/2019"
+  }
 ]
