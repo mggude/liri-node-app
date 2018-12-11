@@ -1,5 +1,3 @@
-// code to read and set any environment variables with the dotenv package
-// require("dotenv").config();
 var command = process.argv[2];
 var fs = require("fs");
 var operator = process.argv.slice(3).join(" ");
@@ -21,7 +19,6 @@ function concertThis(artist) {
                     Date: eventDate.format("MM/DD/YYYY"),
                 }
                 concerts.push(concertData);
-                // console.log(`Artist: ${events.data[i].lineup} \nVenue Name: ${events.data[i].venue.name} \nVenue Location: ${events.data[i].venue.city}, ${events.data[i].venue.country} \nDate of the Event: ${eventDate.format("MM/DD/YYYY")}\n`);
             } 
             for (var i = 0; i < concerts.length; i++) {
                 logResponseData(concerts[i]);
@@ -58,7 +55,6 @@ function spotifyThis(song) {
             logResponseData(songs[i]);
             console.log();
         }
-        
         appendApiDataToLog("./DB/spotifySongs_storage.txt", songs);
     });
 }
