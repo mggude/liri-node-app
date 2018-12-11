@@ -12,6 +12,5 @@ To search for movie/song info or upcoming concerts - type *node liri*, followed 
 * then press *enter* and bask in your newfound knowledge!
 
 ![Sample LIRI Search](assets/sample.png)
-Format: ![Alt Text](url)
 
 
