@@ -1,0 +1,245 @@
+[
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "Contact Winter Music Festival",
+    "City": "Vancouver",
+    "Date": "12/28/2018"
+  },
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "Decadence AZ",
+    "City": "Chandler",
+    "Date": "12/30/2018"
+  },
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "Decadence CO",
+    "City": "Denver",
+    "Date": "12/30/2018"
+  },
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "Snowta NYE",
+    "City": "Minneapolis",
+    "Date": "12/31/2018"
+  },
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "EDC Mexico (Feb 23-24)",
+    "City": "Mexico City",
+    "Date": "02/23/2019"
+  },
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "DOG BLOOD @ BUKU [MAR 22-23]",
+    "City": "New Orleans",
+    "Date": "03/22/2019"
+  }
+][
+  {
+    "Artist": [
+      "My Morning Jacket"
+    ],
+    "Venue": "Red Rocks Amphitheatre",
+    "City": "Morrison",
+    "Date": "08/02/2019"
+  },
+  {
+    "Artist": [
+      "My Morning Jacket"
+    ],
+    "Venue": "Red Rocks Amphitheatre",
+    "City": "Morrison",
+    "Date": "08/03/2019"
+  },
+  {
+    "Artist": [
+      "My Morning Jacket"
+    ],
+    "Venue": "Forest Hills Stadium",
+    "City": "Forest Hills",
+    "Date": "08/10/2019"
+  }
+][
+  {
+    "Artist": [
+      "The Rolling Stones"
+    ],
+    "Venue": "Hard Rock Stadium",
+    "City": "Miami Gardens",
+    "Date": "04/20/2019"
+  },
+  {
+    "Artist": [
+      "The Rolling Stones"
+    ],
+    "Venue": "TIAA Bank Field",
+    "City": "Jacksonville",
+    "Date": "04/24/2019"
+  },
+  {
+    "Artist": [
+      "The Rolling Stones"
+    ],
+    "Venue": "NRG Arena",
+    "City": "Houston",
+    "Date": "04/28/2019"
+  },
+  {
+    "Artist": [
+      "The Rolling Stones"
+    ],
+    "Venue": "State Farm Stadium",
+    "City": "Glendale",
+    "Date": "05/07/2019"
+  },
+  {
+    "Artist": [
+      "The Rolling Stones"
+    ],
+    "Venue": "Rose Bowl Stadium",
+    "City": "Pasadena",
+    "Date": "05/11/2019"
+  },
+  {
+    "Artist": [
+      "The Rolling Stones"
+    ],
+    "Venue": "Levi's Stadium",
+    "City": "Santa Clara",
+    "Date": "05/18/2019"
+  },
+  {
+    "Artist": [
+      "The Rolling Stones"
+    ],
+    "Venue": "CenturyLink Field",
+    "City": "Seattle",
+    "Date": "05/22/2019"
+  },
+  {
+    "Artist": [
+      "The Rolling Stones"
+    ],
+    "Venue": "Broncos Stadium at Mile High",
+    "City": "Denver",
+    "Date": "05/26/2019"
+  },
+  {
+    "Artist": [
+      "The Rolling Stones"
+    ],
+    "Venue": "FedEx Field",
+    "City": "Landover",
+    "Date": "05/31/2019"
+  },
+  {
+    "Artist": [
+      "The Rolling Stones"
+    ],
+    "Venue": "Lincoln Financial Field",
+    "City": "Philadelphia",
+    "Date": "06/04/2019"
+  },
+  {
+    "Artist": [
+      "The Rolling Stones"
+    ],
+    "Venue": "Gillette Stadium",
+    "City": "Foxborough",
+    "Date": "06/08/2019"
+  },
+  {
+    "Artist": [
+      "The Rolling Stones"
+    ],
+    "Venue": "MetLife Stadium",
+    "City": "East Rutherford",
+    "Date": "06/13/2019"
+  },
+  {
+    "Artist": [
+      "The Rolling Stones"
+    ],
+    "Venue": "MetLife Stadium",
+    "City": "East Rutherford",
+    "Date": "06/17/2019"
+  },
+  {
+    "Artist": [
+      "The Rolling Stones"
+    ],
+    "Venue": "Soldier Field",
+    "City": "Chicago",
+    "Date": "06/21/2019"
+  },
+  {
+    "Artist": [
+      "The Rolling Stones"
+    ],
+    "Venue": "Soldier Field",
+    "City": "Chicago",
+    "Date": "06/25/2019"
+  }
+][
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "Contact Winter Music Festival",
+    "City": "Vancouver",
+    "Date": "12/28/2018"
+  },
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "Decadence AZ",
+    "City": "Chandler",
+    "Date": "12/30/2018"
+  },
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "Decadence CO",
+    "City": "Denver",
+    "Date": "12/30/2018"
+  },
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "Snowta NYE",
+    "City": "Minneapolis",
+    "Date": "12/31/2018"
+  },
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "EDC Mexico (Feb 23-24)",
+    "City": "Mexico City",
+    "Date": "02/23/2019"
+  },
+  {
+    "Artist": [
+      "Skrillex"
+    ],
+    "Venue": "DOG BLOOD @ BUKU [MAR 22-23]",
+    "City": "New Orleans",
+    "Date": "03/22/2019"
+  }
+]

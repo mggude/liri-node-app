@@ -1,0 +1,57 @@
+{
+  "Title": "Ghost",
+  "Year": "1990",
+  "Rating": "7.0",
+  "Country": "USA",
+  "Language": "English",
+  "Plot": "After a young man is murdered, his spirit stays behind to warn his lover of impending danger, with the help of a reluctant psychic.",
+  "Actors": "Patrick Swayze, Demi Moore, Whoopi Goldberg, Tony Goldwyn"
+}{
+  "Title": "The Lion King",
+  "Year": "1994",
+  "Rating": "8.5",
+  "Country": "USA",
+  "Language": "English, Swahili, Xhosa, Zulu",
+  "Plot": "A Lion cub crown prince is tricked by a treacherous uncle into thinking he caused his father's death and flees into exile in despair, only to learn in adulthood his identity and his responsibilities.",
+  "Actors": "Rowan Atkinson, Matthew Broderick, Niketa Calame-Harris, Jim Cummings"
+}{
+  "Title": "Ghost",
+  "Year": "1990",
+  "Rating": "7.0",
+  "Country": "USA",
+  "Language": "English",
+  "Plot": "After a young man is murdered, his spirit stays behind to warn his lover of impending danger, with the help of a reluctant psychic.",
+  "Actors": "Patrick Swayze, Demi Moore, Whoopi Goldberg, Tony Goldwyn"
+}{
+  "Title": "Ghost",
+  "Year": "1990",
+  "Rating": "7.0",
+  "Country": "USA",
+  "Language": "English",
+  "Plot": "After a young man is murdered, his spirit stays behind to warn his lover of impending danger, with the help of a reluctant psychic.",
+  "Actors": "Patrick Swayze, Demi Moore, Whoopi Goldberg, Tony Goldwyn"
+}{
+  "Title": "Ghost",
+  "Year": "1990",
+  "Rating": "7.0",
+  "Country": "USA",
+  "Language": "English",
+  "Plot": "After a young man is murdered, his spirit stays behind to warn his lover of impending danger, with the help of a reluctant psychic.",
+  "Actors": "Patrick Swayze, Demi Moore, Whoopi Goldberg, Tony Goldwyn"
+}{
+  "Title": "The Lion King",
+  "Year": "1994",
+  "Rating": "8.5",
+  "Country": "USA",
+  "Language": "English, Swahili, Xhosa, Zulu",
+  "Plot": "A Lion cub crown prince is tricked by a treacherous uncle into thinking he caused his father's death and flees into exile in despair, only to learn in adulthood his identity and his responsibilities.",
+  "Actors": "Rowan Atkinson, Matthew Broderick, Niketa Calame-Harris, Jim Cummings"
+}{
+  "Title": "Ghost",
+  "Year": "1990",
+  "Rating": "7.0",
+  "Country": "USA",
+  "Language": "English",
+  "Plot": "After a young man is murdered, his spirit stays behind to warn his lover of impending danger, with the help of a reluctant psychic.",
+  "Actors": "Patrick Swayze, Demi Moore, Whoopi Goldberg, Tony Goldwyn"
+}

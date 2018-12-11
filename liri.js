@@ -1,7 +1,7 @@
 // code to read and set any environment variables with the dotenv package
 // require("dotenv").config();
 var command = process.argv[2];
-// var fs = require("fs");
+var fs = require("fs");
 var operator = process.argv.slice(3).join(" ");
 
 function concertThis(artist) {
@@ -10,11 +10,25 @@ function concertThis(artist) {
     var queryURL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
     axios.get(queryURL).then(
         function (events) {
+            var concerts = [];
             for (var i = 0; i < events.data.length; i++) {
                 var dateTime = events.data[i].datetime;
                 var eventDate = moment(dateTime);
-                console.log(`Artist: ${events.data[i].lineup} \nVenue Name: ${events.data[i].venue.name} \nVenue Location: ${events.data[i].venue.city}, ${events.data[i].venue.country} \nDate of the Event: ${eventDate.format("MM/DD/YYYY")}\n`);
+                var concertData = {
+                    Artist: events.data[i].lineup,
+                    Venue: events.data[i].venue.name,
+                    City: events.data[i].venue.city,
+                    Date: eventDate.format("MM/DD/YYYY"),
+                }
+                concerts.push(concertData);
+                // console.log(`Artist: ${events.data[i].lineup} \nVenue Name: ${events.data[i].venue.name} \nVenue Location: ${events.data[i].venue.city}, ${events.data[i].venue.country} \nDate of the Event: ${eventDate.format("MM/DD/YYYY")}\n`);
+            } 
+            for (var i = 0; i < concerts.length; i++) {
+                logResponseData(concerts[i]);
+                console.log();
             }
+            
+            appendApiDataToLog("./DB/bandsintown_storage.txt", concerts);
         }
     );
 }
@@ -30,9 +44,22 @@ function spotifyThis(song) {
             return console.log('Error occurred: ' + err);
         }
         var data = data.tracks.items;
+        var songs = [];
         for (var i = 0; i < data.length; i++) {
-            console.log(`Artist: ${data[i].album.artists[0].name} \nSong Title: ${data[i].name} \nSpotify Preview Link: ${data[i].preview_url} \nAlbum Title: ${data[i].album.name}\n`);
+            var songsData = {
+                Artist: data[i].album.artists[0].name,
+                Title: data[i].name,
+                Preview: data[i].preview_url,
+                Album: data[i].album.name
+            }
+            songs.push(songsData);
         }
+        for (var i = 0; i < songs.length; i++) {
+            logResponseData(songs[i]);
+            console.log();
+        }
+        
+        appendApiDataToLog("./DB/spotifySongs_storage.txt", songs);
     });
 }
 
@@ -40,9 +67,17 @@ function movieThis(movie) {
     var axios = require("axios");
     axios.get("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy").then(
         function (response) {
-            console.log(
-                `Movie title: ${response.data.Title} \nReleased: ${response.data.Year} \nIMDB Rating: ${response.data.imdbRating} \nRotten Tomatoes Rating: ${response.data.Ratings[1].Value} \nProduced in: ${response.data.Country} \nLanguage: ${response.data.Language} \nPlot: ${response.data.Plot} \nActors: ${response.data.Actors}`
-            );
+            var movieData = {
+                Title: response.data.Title,
+                Year: response.data.Year,
+                Rating: response.data.imdbRating,
+                Country: response.data.Country,
+                Language: response.data.Language,
+                Plot: response.data.Plot,
+                Actors: response.data.Actors
+            }
+            logResponseData(movieData);
+            appendApiDataToLog("./DB/omdb_storage.txt", movieData);
         }
     );
 }
@@ -60,6 +95,7 @@ function doThis() {
         switch (newCommand) {
             case "concert-this":
                 var artist = newOperator;
+                console.log(artist);
                 concertThis(artist);
                 break;
             case "spotify-this-song":
@@ -68,7 +104,7 @@ function doThis() {
                 break;
             case "movie-this":
                 var movie = newOperator;
-                movieThis(movie); 
+                movieThis(movie);
                 break;
             default:
                 console.log("Hit default!");
@@ -100,4 +136,18 @@ switch (command) {
     default:
         console.log("Hit default!")
         return false;
+}
+
+function appendApiDataToLog(fileName, data) {
+    var parsedData = JSON.stringify(data, null, 2);
+    fs.appendFile(fileName, parsedData, function (err) {
+        if (err) throw err;
+        console.log();
+    });
+}
+
+function logResponseData(data) {
+    for (key in data) {
+        console.log(`${key}: ${data[key]}`);
+    }
 }
