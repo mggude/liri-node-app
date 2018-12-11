@@ -112,6 +112,10 @@ function doThis() {
 switch (command) {
     case "concert-this":
         var artist = operator;
+          // If no artist is provided then your program will default to The Rolling Stones.
+          if (!operator) {
+            artist = "The Rolling Stones";
+        }
         concertThis(artist);
         break;
     case "spotify-this-song":
