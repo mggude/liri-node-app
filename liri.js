@@ -124,6 +124,10 @@ switch (command) {
         break;
     case "movie-this":
         var movie = operator;
+        // If no movie is provided then your program will default to "Mr. Nobody"
+        if (!operator) {
+            movie = "Mr Nobody";
+        }
         movieThis(movie);
         break;
     case "do-what-it-says":
